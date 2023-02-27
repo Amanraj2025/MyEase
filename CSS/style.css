@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+ /* login  */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  #procatCont {
+    position: relative;
+    width: 100%;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+  }
+  
+  #procatCont .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: center center/cover no-repeat;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  #procatCont .bg.opaque {
+    opacity: 1;
+  }
+  
+  #procatCont > ul {
+    list-style-type: none;
+  }
+  
+  #procatCont li {
+    z-index: 99;
+    float: left;
+    width: 25%;
+    height: 140px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+    transition: background 0.4s linear;
+  }
+  
+  #procatCont a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 4px #333;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+  }
+  
+  #procatCont a:link {
+    text-decoration: none;
+  }
+  
+  #procatCont span {
+    display: block;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: none;
+    text-transform: uppercase;
+    color: #666;
+    padding-top: 10px;
+  }
+  
+  #procatCont a:hover {
+    color: white;
+  }
+  
+  #procatCont li:nth-of-type(2), #procatCont li:nth-of-type(4), #procatCont li:nth-of-type(5), #procatCont li:nth-of-type(7), #procatCont li:nth-of-type(10), #procatCont li:nth-of-type(12), #procatCont li:nth-of-type(13) {
+    background: #ddd;
+  }
+  
+  #procatCont #end {
+    clear: both;
+  }
+  
+  .tr, .wh {
+    background: transparent !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+  }
+  
+  .wh {
+    background: rgba(255, 255, 255, 0.9) !important;
+  }
+  
+  .spanfont_this {
+    color: #333 !important;
+  }
+  
+  .spanfont {
+    color: #eee !important;
+    text-shadow: 0px 0px 2px #111 !important;
+  }
+  
+  @media screen and (max-width: 575px) {
+    #procatCont li {
+      width: 50%;
+      transition: none;
+    }
+  
+    #procatCont li:nth-of-type(1), #procatCont li:nth-of-type(4), #procatCont li:nth-of-type(5), #procatCont li:nth-of-type(8), #procatCont li:nth-of-type(9), #procatCont li:nth-of-type(12), #procatCont li:nth-of-type(13) {
+      background: #eee;
+    }
+  
+    #procatCont li:nth-of-type(2), #procatCont li:nth-of-type(3), #procatCont li:nth-of-type(6), #procatCont li:nth-of-type(7), #procatCont li:nth-of-type(10), #procatCont li:nth-of-type(11), #procatCont li:nth-of-type(14) {
+      background: #ddd;
+    }
+  
+    #procatCont .bg {
+      display: none;
+    }
+  
+    .tr {
+      background: #ddd !important;
+    }
+  
+    .spanfont {
+      color: #666 !important;
+      text-shadow: none !important;
+    }
+  }
+
+
+
+
+  /* chatbot */
+
+  

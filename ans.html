@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/MyEase (1)1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css" class="css">
+    <link rel="stylesheet" href="./CSS/about.css">
+   
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+   
+
+
+    <title>MyEase</title>
+</head>
+<body>
+    <span class="logo4"> </span>
+
+  <a href="./index.html"> <img   src="./img/MyEase (1).png"  class="logo1" alt=""></a> 
+
+  <nav>
+ 
+    <a href="./index.html">HOME</a>
+    <a href="#">Catagory</a>
+    <a href="#">About Us</a>
+    <div id="indicator"></div>
+  </nav>
+
+ 
+
+
+
+    <div class="container my-5">
+        <section>
+            <div class="text-center mb-5">
+                <span>STEPS</span>
+                <h2 class="font-weight-bold display-4 ">How It <span style="color: #9B5DE5">Works?</span></h2>
+            </div>
+            <div class="col-12 col-md-6 mx-auto">
+                <div class="">
+                    <div class="bg-light position-relative px-3 my-5">
+                        <div class="font-weight-bold circle text-white rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative border border-white"
+                             style="width: 60px;height: 60px;top: -30px;border-width: 4px !important; background-color: #9B5DE5">
+                            1
+                        </div>
+                        <div class="px-3 text-center pb-3">
+                            <h4>Headline</h4>
+                            <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
+                                deleniti et fugit iusto nesciunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="bg-light position-relative px-3 my-5">
+                        <div class="font-weight-bold circle text-white rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative border border-white"
+                             style="width: 60px;height: 60px;top: -30px;border-width: 4px !important; background-color: #9B5DE5">
+                            2
+                        </div>
+                        <div class="px-3 text-center pb-3">
+                            <h4>Headline</h4>
+                            <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
+                                deleniti et fugit iusto nesciunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="bg-light position-relative px-3 my-5">
+                        <div class="font-weight-bold circle text-white rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative border border-white"
+                             style="width: 60px;height: 60px;top: -30px;border-width: 4px !important; background-color: #9B5DE5">
+                            3
+                        </div>
+                        <div class="px-3 text-center pb-3">
+                            <h4>Headline</h4>
+                            <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
+                                deleniti et fugit iusto nesciunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>           
+
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <span class="logo_name">        <a href=""> <img   src="./img/MyEase (1).png"  class="logo1" style="position: relative;
+                left: 0;
+                top: -1vw;;" alt=""></a> 
+              </span>
+            </div>
+            <div class="media-icons">
+              <a target="on_blank" href="#"><i class="fab fa-facebook"></i></a>
+              <a target="on_blank" href=" "><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Links</li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="{% url 'upload' %}">Submit Query</a></li>
+    
+            </ul>
+            <ul class="box">
+              <li class="link_name">Recommended</li>
+              <li><a href="{% url 'category' 6 %}">India</a></li>
+              <li><a href="{% url 'category' 5 %">Government</a></li>
+              <li><a href="{% url 'category' 11 %">People</a></li>
+              <li><a href="{% url 'category' 2 %">College</a></li>
+    
+            </ul>
+            <ul class="box">
+              <li class="link_name">Legal Info</li>
+              <li><a href="{% url 'licence' %}">Licence</a></li>
+              <li><a href="{% url 'terms' %}">Terms and Conditions</a></li>
+              <li><a href="{% url 'privacy' %}">Privacy Policies</a></li>
+    
+            </ul>
+            <ul class="box">
+              <li class="link_name">Contact</li>
+              <li><a target="on_blank" href="tel:+919079680135">+91 9910772433</a></li>
+              <li><a target="on_blank" href="mailto:'connectpicoindia@gmail.com'">rajaman78167@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 <a href="#">MyEase.</a></span>
+          </div>
+        </div>
+      </footer>
+<script src="./JS/js.js"></script>
+</body>
+</html>
